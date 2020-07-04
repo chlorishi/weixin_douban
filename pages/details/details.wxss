@@ -1,0 +1,95 @@
+/* pages/details/details.wxss */
+@import '../templates/stars-template/stars-template.wxss';
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+
+.header-img image {
+  border-radius: 10rpx;
+  width: 230rpx;
+  height: 260rpx;
+}
+
+.header-content {
+  padding-left: 10rpx;
+}
+
+.content-name {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.content-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 28rpx;
+  color: #ccc;
+}
+
+.rating {
+  padding: 20rpx;
+}
+
+.rating-title {
+  font-size: 42rpx;
+  font-weight: bold;
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-average {
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.main {
+  padding: 20rpx;
+}
+
+.main-title {
+  font-size: 42rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.main-content {
+  font-size: 28rpx;
+}
+
+
+
+.person-title {
+  padding: 20rpx;
+  font-size: 42rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.person-content {
+  display: flex;
+
+}
+
+.person-list {
+  width: 200rpx;
+  padding: 20rpx;
+}
+
+.person-list image {
+  border-radius: 10rpx;
+  width: 200rpx;
+  height: 260rpx;
+}
+
+.person-list view {
+  text-align: center;
+  font-size: 32rpx;
+}

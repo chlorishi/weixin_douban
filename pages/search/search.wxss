@@ -1,0 +1,36 @@
+/* pages/search/search.wxss */
+.search {
+  background-color: #42bd56;
+  padding: 20rpx 30rpx;
+}
+
+.search-content {
+  padding: 6rpx;
+  border-radius: 10rpx;
+  background-color: white;
+  display: flex;
+}
+
+.search-content view {
+  line-height: 60rpx;
+  padding-left: 10rpx;
+}
+
+.search-content input {
+  height: 60rpx;
+  color: #ccc;
+  padding-left: 10rpx;
+  font-size: 28rpx;
+}
+.search-main{
+  padding: 20rpx;
+}
+.main-item{
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.item-img{
+  width: 230rpx;
+  height: 260rpx;
+  border-radius: 10rpx;
+}
